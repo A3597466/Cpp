@@ -15,7 +15,7 @@ double arctan(double x)
 	return r;
 }
 int main() {
-	double a = 16.0 * arctan(1 / 5.0);//注意是浮点数相乘相除，要加‘.0’，此处要注意
+	double a = 16.0 * arctan(1 / 5.0);//注意是浮点数相乘相除，要加‘.0’，此处要注意,,
 	double b = 4.0 * arctan(1 / 239.0);
 	cout << "PI = " << a - b << endl;
 	return 0;
